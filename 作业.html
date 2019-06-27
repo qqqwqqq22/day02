@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    <ul>{
+        list-style:none;
+    }
+    .produnts{
+        width:800px;
+        background-color:#ededed
+    }
+    .produnts::after{
+        content: "";
+        display:block;
+        clear:both;
+    }
+/*(800px-2*10px)/3=260px*/
+.produnts > li{
+float: left;
+height: 100px;
+widows: 260px;
+margin-right: 10px;
+margin-bottom: 10px;
+background-color: teal;
+}    
+
+
+
+    </ul>
+    </style>
+</body>
+</html>

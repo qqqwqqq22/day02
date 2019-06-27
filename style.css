@@ -1,0 +1,28 @@
+.left{
+    color:red;
+    font-size: 20px;
+}
+.right{
+    color:blue;
+    font-size: 20px;
+}
+#t1 {
+    color:blue;
+}
+
+
+#t2,.right{
+    border; 1px solid #ccc;
+}
+
+
+.header > ul{
+border: 1px solid #ccc;
+}
+.header >ul>li:nth-child(3){
+    background-color: pink
+}
+
+ul::after{
+    content:""
+}
